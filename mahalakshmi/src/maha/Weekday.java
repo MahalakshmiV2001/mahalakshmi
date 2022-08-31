@@ -10,7 +10,7 @@ if(day==1) {
 else if(day==2) {
 	System.out.println("Tuesday");
 }
-else if(day==3) {s
+else if(day==3) {
 	System.out.println("Wednesday");
 }
 else if(day==4) {
