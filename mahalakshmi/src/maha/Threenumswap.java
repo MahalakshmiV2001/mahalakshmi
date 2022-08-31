@@ -3,18 +3,17 @@ package maha;
 public class Threenumswap {
 public static void main(String args[])
 {
-int x=5;
-int y=3;
+int x=3;
+int y=5;
 int z=7;
-x=x+y;
-y=x-y;
-x=x-y;
+x=x+z;
+z=x-z;
+x=x-z;
 y=y+z;
 z=y-z;
 y=y-z;
-System.out.println(x);
-System.out.println(y);
-System.out.println(z);
-
+System.out.println("x="+x);
+System.out.println("y="+y);
+System.out.println("z="+z);
 }
 }
